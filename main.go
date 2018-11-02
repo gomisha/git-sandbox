@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello world! Feature1 branch")
+	fmt.Println("Hello world! Feature1 branch - another commit")
 }
