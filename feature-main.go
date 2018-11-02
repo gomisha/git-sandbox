@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Feature-main: Hello world!")
+	fmt.Println("Feature-main: Hello world! Another change on feature branch")
 }
