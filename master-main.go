@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello world - another change on master3")
+	fmt.Println("Hello world - another change on master4")
 }
