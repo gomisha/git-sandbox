@@ -76,7 +76,6 @@ def create_pipeline(project_url, pipeline_token, ref, variables={}) -> Optional[
     print("DEBUG: project_url=" + project_url)
     print("DEBUG: ref=" + ref)
     print("DEBUG: pipeline_token=" + pipeline_token)
-    print("DEBUG: data=" + data)
     assert r.status_code == 201, f'Failed to create pipeline, api returned status code {r.status_code}'
     pid = r.json().get('id', None)
     print(f'Pipeline created (id: {pid})')
